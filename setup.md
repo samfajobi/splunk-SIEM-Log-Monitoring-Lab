@@ -36,10 +36,12 @@ cd /opt/splunk/bin
 ```
 sudo ./splunk enable boot-start --accept-license
 ```
+![Splunk-setup-1](screenshots/splunk-setup-2.png)
 3. Start Splunk:
 ```
 sudo ./splunk start
 ```
+![Splunk-setup-1](screenshots/splunk-setup-3.png)
 4. When prompted, set up an admin username and password.
 
 ### Step 3: Access Splunk Web Interface
@@ -48,6 +50,8 @@ sudo ./splunk start
 http://<your-server-ip>:8000
 ```
 2. Log in with the admin credentials created earlier.
+![Splunk-setup-1](screenshots/splunk-setup-4.png)
+![Splunk-setup-1](screenshots/splunk-setup-5.png)
    
 
 ## Conclusion
