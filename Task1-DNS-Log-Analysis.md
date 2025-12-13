@@ -1,4 +1,4 @@
-# 🧪 Lab Title: Summary of my First Task – DNS Log Analysis
+# 🧪 Lab Title: Snippet from my First Task – DNS Log Analysis
 
 ---
 
