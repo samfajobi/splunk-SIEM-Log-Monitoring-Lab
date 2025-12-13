@@ -63,10 +63,11 @@ index=dns_lab sourcetype="json"
 | stats count by "id.orig_h"
 | sort -count
 ```
-
+![Splunk-Tasks](screenshots/splunk-task7.png)
 
 ### ✅Task 3: Breakdown of DNS query types (A, AAAA, CNAME, PTR)
 ```spl
 index=dns_lab sourcetype="json"
 | stats count by qtype
 ```
+![Splunk-Tasks](screenshots/splunk-task8.png)
