@@ -58,8 +58,11 @@ index=ssh_lab sourcetype="json" auth_success=false
 index=ssh_lab sourcetype="json"
 | stats count as total_ssh_connections
 ```
+![Splunk-Tasks](screenshots/splunk-task11.png) 
+
 ### ✅Task 4: Count all event types (successful, failed, no-auth, multiple-failed) seen in the logs
 ```spl
 index=ssh_lab sourcetype="json"
 | stats count by event_type
 ```
+![Splunk-Tasks](screenshots/splunk-task12.png) 
