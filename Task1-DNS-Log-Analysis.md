@@ -17,7 +17,7 @@ In this lab, you will:
 - ✅ **Data Source**: JSON-formatted Zeek DNS logs.
 - 🌐 **Log File**: Download the file below and place it in a directory accessible to Splunk for ingestion.
 
-📥 **[Download sample dns file](https:/)**
+📥 **[Download sample dns file](https://github.com/samfajobi/splunk-SIEM-Log-Monitoring-Lab/blob/main/dns_logs.json)**
 
 ---
 
