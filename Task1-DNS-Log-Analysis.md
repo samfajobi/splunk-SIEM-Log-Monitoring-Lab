@@ -24,16 +24,20 @@ In this lab, you will:
 ## ⚙️ Steps to Upload DNS Log into Splunk
 
 1. Go to Splunk Web → **Settings > Add Data**.
+
 ![Splunk-Tasks](screenshots/splunk-task1.png) 
 
 2. Choose **Upload** and select the file `dns.log`.
-3. Set Source type: `json` or create a custom source type `dns`.
-![Splunk-Tasks](screenshots/splunk-task2.png)
 
+![Splunk-Tasks](screenshots/splunk-task2.png)
+3. Set Source type: `json` or create a custom source type `dns`.
 4. Index: Choose `main` or create a new index like `dns_lab`.
 ![Splunk-Tasks](screenshots/splunk-task3.png)
 5. Finish the upload and confirm indexing.
 ![Splunk-Tasks](screenshots/splunk-task4.png)
+6. Now, let's start Searching!!!!.
+![Splunk-Tasks](screenshots/splunk-task5.png)
+
 
 ---
 
